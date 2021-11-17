@@ -140,14 +140,12 @@ public class BasicInkExample : MonoBehaviour
 		}
 	}
 
+
 	[SerializeField]
 	private TextAsset inkJSONAsset = null;
 	public Story story;
 	public GameObject textpanel;
 	public GameObject optionspanel;
-
-	[SerializeField]
-	private Canvas canvas = null;
 
 	// UI Prefabs
 	[SerializeField]
