@@ -49,7 +49,7 @@ public class BasicInkExample : MonoBehaviour
 			// Check for tags
 			if (story.currentTags.Count > 0)
 			{
-				ParseTags();
+				GetComponent<SpawnSprites>().ParseTags(story, playerChoices);
 			}
 		}
 
@@ -153,53 +153,53 @@ public class BasicInkExample : MonoBehaviour
 	[SerializeField]
 	private Button buttonPrefab = null;
 
-	// * * * SPAWN SPRITES * * *
-	// Name
-	public GameObject namePrefab;
-	public Sprite[] nameSprites; 
-	public Transform namePosition;
+	//// * * * SPAWN SPRITES * * *
+	//// Name
+	//public GameObject namePrefab;
+	//public Sprite[] nameSprites; 
+	//public Transform namePosition;
 
-	// Snack
-	public GameObject snackPrefab;
-	public Sprite[] snackSprites;
-	public Transform snackPosition;
+	//// Snack
+	//public GameObject snackPrefab;
+	//public Sprite[] snackSprites;
+	//public Transform snackPosition;
 
-	// Memory
-	public GameObject memoryPrefab;
-	public Sprite[] memorySprites;
-	public Transform memoryPosition;
+	//// Memory
+	//public GameObject memoryPrefab;
+	//public Sprite[] memorySprites;
+	//public Transform memoryPosition;
 
 
-	public void ParseTags()
-	{
-		tags = story.currentTags;
-		foreach (string t in tags)
-		{
-			string prefix = t.Split(' ')[0];
-			string param = t.Split(' ')[1];
+	//public void ParseTags()
+	//{
+	//	tags = story.currentTags;
+	//	foreach (string t in tags)
+	//	{
+	//		string prefix = t.Split(' ')[0];
+	//		string param = t.Split(' ')[1];
 
-			switch (prefix.ToLower())
-			{
-				case "name":
-					namePrefab.GetComponent<SpriteRenderer>().sprite = nameSprites[int.Parse(param)];
-					Instantiate(namePrefab, playerChoices);
-					Vector2 namePosition = namePrefab.transform.position;
-					print("my name is");
-					print(namePrefab.GetComponent<SpriteRenderer>().sprite);
-					break;
+	//		switch (prefix.ToLower())
+	//		{
+	//			case "name":
+	//				namePrefab.GetComponent<SpriteRenderer>().sprite = nameSprites[int.Parse(param)];
+	//				Instantiate(namePrefab, playerChoices);
+	//				Vector2 namePosition = namePrefab.transform.position;
+	//				print("my name is");
+	//				print(namePrefab.GetComponent<SpriteRenderer>().sprite);
+	//				break;
 
-				case "snack":
-					snackPrefab.GetComponent<SpriteRenderer>().sprite = snackSprites[int.Parse(param)];
-					Instantiate(snackPrefab, playerChoices);
-					Vector2 snackPosition = snackPrefab.transform.position;
-					break;
+	//			case "snack":
+	//				snackPrefab.GetComponent<SpriteRenderer>().sprite = snackSprites[int.Parse(param)];
+	//				Instantiate(snackPrefab, playerChoices);
+	//				Vector2 snackPosition = snackPrefab.transform.position;
+	//				break;
 
-				case "memory":
-					memoryPrefab.GetComponent<SpriteRenderer>().sprite = memorySprites[int.Parse(param)];
-					Instantiate(memoryPrefab, playerChoices);
-					Vector2 memoryPosition = memoryPrefab.transform.position;
-					break;
-			}
-		}
-	}
+	//			case "memory":
+	//				memoryPrefab.GetComponent<SpriteRenderer>().sprite = memorySprites[int.Parse(param)];
+	//				Instantiate(memoryPrefab, playerChoices);
+	//				Vector2 memoryPosition = memoryPrefab.transform.position;
+	//				break;
+	//		}
+	//	}
+	//}
 }

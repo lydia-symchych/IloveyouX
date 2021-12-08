@@ -592,18 +592,8 @@ MonoBehaviour:
   inkJSONAsset: {fileID: 4900000, guid: a1fd287b1de3ff547a1309e8e87b9fd3, type: 3}
   textpanel: {fileID: 491733218}
   optionspanel: {fileID: 0}
-  canvas: {fileID: 1908123726}
   textPrefab: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
-  namePrefab: {fileID: 0}
-  nameSprites: []
-  namePosition: {fileID: 0}
-  snackPrefab: {fileID: 0}
-  snackSprites: []
-  snackPosition: {fileID: 0}
-  memoryPrefab: {fileID: 0}
-  memorySprites: []
-  memoryPosition: {fileID: 0}
 --- !u!223 &1908123726
 Canvas:
   m_ObjectHideFlags: 0
@@ -770,6 +760,7 @@ GameObject:
   - component: {fileID: 2009679605}
   - component: {fileID: 2009679604}
   - component: {fileID: 2009679606}
+  - component: {fileID: 2009679607}
   m_Layer: 0
   m_Name: Scene Controller
   m_TagString: Untagged
@@ -794,36 +785,8 @@ MonoBehaviour:
   inkJSONAsset: {fileID: 4900000, guid: a1fd287b1de3ff547a1309e8e87b9fd3, type: 3}
   textpanel: {fileID: 491733218}
   optionspanel: {fileID: 125247834}
-  canvas: {fileID: 1908123726}
   textPrefab: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
-  namePrefab: {fileID: 4912084102728174649, guid: e8e6ff30a86c28b4e80bdd81288f61f4,
-    type: 3}
-  nameSprites:
-  - {fileID: -968654952233966400, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
-  - {fileID: -2700114513602543480, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
-  - {fileID: -3579454555543239500, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
-  - {fileID: 4846405414220304263, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
-  - {fileID: -2090190798583294414, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
-  namePosition: {fileID: 6228744557376691211, guid: e8e6ff30a86c28b4e80bdd81288f61f4,
-    type: 3}
-  snackPrefab: {fileID: 4876239891164712783, guid: 7774c87d19f5c5844a63b5cc698d23ad,
-    type: 3}
-  snackSprites:
-  - {fileID: -802125196335460181, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
-  - {fileID: -6109232304080777033, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
-  - {fileID: -1502449730479444260, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
-  - {fileID: -6096368880437363738, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
-  snackPosition: {fileID: 7427817606237607684, guid: 7774c87d19f5c5844a63b5cc698d23ad,
-    type: 3}
-  memoryPrefab: {fileID: 9092617754479009715, guid: ca1a790e7e296d14da79ee5e706facd2,
-    type: 3}
-  memorySprites:
-  - {fileID: -5181858495988413137, guid: 8977d2d453fbe4e44be2e14dd6174d1a, type: 3}
-  - {fileID: 2834712744005738272, guid: 8977d2d453fbe4e44be2e14dd6174d1a, type: 3}
-  - {fileID: -8752483157231961511, guid: 8977d2d453fbe4e44be2e14dd6174d1a, type: 3}
-  memoryPosition: {fileID: 8195300196682507555, guid: ca1a790e7e296d14da79ee5e706facd2,
-    type: 3}
 --- !u!4 &2009679605
 Transform:
   m_ObjectHideFlags: 0
@@ -853,3 +816,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 27
+--- !u!114 &2009679607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009679603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3eda462431e774ca53b25cdd9c059d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tags: []
+  namePrefab: {fileID: 4912084102728174649, guid: e8e6ff30a86c28b4e80bdd81288f61f4,
+    type: 3}
+  nameSprites:
+  - {fileID: -968654952233966400, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
+  - {fileID: -2090190798583294414, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
+  - {fileID: -968654952233966400, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
+  - {fileID: -3579454555543239500, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
+  - {fileID: 4846405414220304263, guid: c1a82d30b05bc5d459e880ebed950efd, type: 3}
+  namePosition: {fileID: 6228744557376691211, guid: e8e6ff30a86c28b4e80bdd81288f61f4,
+    type: 3}
+  snackPrefab: {fileID: 4876239891164712783, guid: 7774c87d19f5c5844a63b5cc698d23ad,
+    type: 3}
+  snackSprites:
+  - {fileID: -802125196335460181, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
+  - {fileID: -6109232304080777033, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
+  - {fileID: -6096368880437363738, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
+  - {fileID: -1502449730479444260, guid: bf006dbca77098b4d8a38a6e6b9b29a6, type: 3}
+  snackPosition: {fileID: 7427817606237607684, guid: 7774c87d19f5c5844a63b5cc698d23ad,
+    type: 3}

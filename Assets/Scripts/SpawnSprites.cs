@@ -31,7 +31,7 @@ public class SpawnSprites : MonoBehaviour
       
     }
 
-    public void ParseTags()
+    public void ParseTags(Story story, Transform playerChoices)
     {
         tags = story.currentTags;
         foreach (string t in tags)
