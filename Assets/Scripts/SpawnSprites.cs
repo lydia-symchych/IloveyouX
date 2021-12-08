@@ -74,51 +74,56 @@ public class SpawnSprites : MonoBehaviour
             switch (prefix.ToLower())
             {
                 case "morningdrink":
-                    Instantiate(morningdrinkPrefab);
+                    Instantiate(morningdrinkPrefab, playerChoices);
+                    print("prefab made");
                     morningdrinkPrefab.GetComponent<SpriteRenderer>().sprite = morningdrinkSprites[int.Parse(param)];
+                    print("sprite set");
                     Vector2 morningdrinkPosition = morningdrinkPrefab.transform.position;
                     break;
 
                 case "season":
-                    Instantiate(seasonPrefab);
+                    Instantiate(seasonPrefab, playerChoices);
                     seasonPrefab.GetComponent<SpriteRenderer>().sprite = seasonSprites[int.Parse(param)];
                     Vector2 seasonPosition = seasonPrefab.transform.position;
                     break;
 
                 case "weather":
-                    Instantiate(weatherPrefab);
+                    Instantiate(weatherPrefab, playerChoices);
                     weatherPrefab.GetComponent<SpriteRenderer>().sprite = weatherSprites[int.Parse(param)];
                     Vector2 weatherPosition = weatherPrefab.transform.position;
                     break;
 
                 case "name":
-                    Instantiate(namePrefab);
+                    Instantiate(namePrefab, playerChoices);
                     namePrefab.GetComponent<SpriteRenderer>().sprite = nameSprites[int.Parse(param)];
                     Vector2 namePosition = namePrefab.transform.position;
                     break;
 
                 case "petname":
-                    Instantiate(petnamePrefab);
+                    Instantiate(petnamePrefab, playerChoices);
                     petnamePrefab.GetComponent<SpriteRenderer>().sprite = petnameSprites[int.Parse(param)];
                     Vector2 petnamePosition = petnamePrefab.transform.position;
                     break;
 
                 case "snack":
-                    Instantiate(snackPrefab);
+                    Instantiate(snackPrefab, playerChoices);
                     snackPrefab.GetComponent<SpriteRenderer>().sprite = snackSprites[int.Parse(param)];
                     Vector2 snackPosition = snackPrefab.transform.position;
                     break;
 
                 case "memory":
-                    Instantiate(memoryPrefab);
+                    Instantiate(memoryPrefab, playerChoices);
                     memoryPrefab.GetComponent<SpriteRenderer>().sprite = memorySprites[int.Parse(param)];
                     Vector2 memoryPosition = snackPrefab.transform.position;
                     break;
 
                 case "end":
-                    Instantiate(endPrefab);
+                    Instantiate(endPrefab,playerChoices);
                     break;
             }
         }
+
     }
+
+
 }

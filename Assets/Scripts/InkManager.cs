@@ -139,6 +139,7 @@ public class InkManager : MonoBehaviour
 		for (int i = childCount - 1; i >= 0; --i)
 		{
 			GameObject.Destroy(playerChoices.transform.GetChild(i).gameObject);
+			print("Sprite Destroyed");
 		}
 	}
 
