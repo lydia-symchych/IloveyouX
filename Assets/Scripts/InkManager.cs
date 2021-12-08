@@ -19,6 +19,7 @@ public class InkManager : MonoBehaviour
 		RemoveSprites();
 		StartStory();
 		spriteSpawner = GetComponent<SpawnSprites>();
+		
 	}
 
 	// Creates a new Story object with the compiled story which we can then play!
@@ -28,6 +29,7 @@ public class InkManager : MonoBehaviour
 		if (OnCreateStory != null) OnCreateStory(story);
 		RemoveSprites();
 		RefreshView();
+		print(story.currentTags.Count);
 	}
 
 	// This is the main function called every time the story changes. It does a few things:
@@ -138,6 +140,7 @@ public class InkManager : MonoBehaviour
 		int childCount = playerChoices.transform.childCount;
 		for (int i = childCount - 1; i >= 0; --i)
 		{
+			// set SpriteRenderer.sprite = null
 			GameObject.Destroy(playerChoices.transform.GetChild(i).gameObject);
 			print("Sprite Destroyed");
 		}

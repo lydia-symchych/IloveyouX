@@ -13,7 +13,7 @@ public class SpriteBehaviorOnAwake : MonoBehaviour
         
     }
 
-    private void Awake()
+    private void Awake() //OnEnable
     {
         print("Awake");
        
