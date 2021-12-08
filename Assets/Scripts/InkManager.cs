@@ -5,11 +5,12 @@ using System.Collections.Generic;
 using Ink.Runtime;
 
 // This is a super bare bones example of how to play and display a ink story in Unity.
-public class BasicInkExample : MonoBehaviour
+public class InkManager : MonoBehaviour
 {
 	public static event Action<Story> OnCreateStory;
 	public List<string> tags;
 	public Transform playerChoices;
+	private SpawnSprites spriteSpawner;
 
 	void Awake()
 	{
@@ -17,6 +18,7 @@ public class BasicInkExample : MonoBehaviour
 		RemoveChildren();
 		RemoveSprites();
 		StartStory();
+		spriteSpawner = GetComponent<SpawnSprites>();
 	}
 
 	// Creates a new Story object with the compiled story which we can then play!
@@ -49,7 +51,7 @@ public class BasicInkExample : MonoBehaviour
 			// Check for tags
 			if (story.currentTags.Count > 0)
 			{
-				GetComponent<SpawnSprites>().ParseTags(story, playerChoices);
+				spriteSpawner.ParseTags(story, playerChoices);
 			}
 		}
 
@@ -77,7 +79,7 @@ public class BasicInkExample : MonoBehaviour
 			choice.onClick.AddListener(delegate
 			{
 				StartStory();
-			});
+            });
 		}
 	}
 
