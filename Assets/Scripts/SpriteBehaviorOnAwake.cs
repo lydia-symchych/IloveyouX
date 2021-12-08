@@ -27,7 +27,7 @@ public class SpriteBehaviorOnAwake : MonoBehaviour
     }
 
     //Fade In coroutine | based on this tutorial https://www.youtube.com/watch?v=oNz4I0RfsEg
-    IEnumerable FadeIn()
+    IEnumerator FadeIn()
     {
         for (float f = 0.05f; f <= 1; f+= 0.05f)
         {
