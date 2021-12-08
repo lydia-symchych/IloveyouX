@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: c1a82d30b05bc5d459e880ebed950efd
+guid: 2fa8cf18f918d8144b56b68cff08521f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -968654952233966400
-    second: Gamma
+      213: 1949178250641675225
+    second: PetnameSprites_Mousie
   - first:
-      213: -2090190798583294414
-    second: Ga
+      213: 26730650298948414
+    second: PetnameSprites_Bean
   - first:
-      213: 4846405414220304263
-    second: Grandma
+      213: -761773584889189256
+    second: PetnameSprites_Munch
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +56,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -108,106 +108,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Nana
+      name: PetnameSprites_Mousie
       rect:
         serializedVersion: 2
-        x: 4
-        y: 6
-        width: 242
-        height: 66
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 9
+        y: 17
+        width: 328
+        height: 68
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ececa4ac2eaf8c6a0800000000000000
-      internalID: -6428612616107929906
+      spriteID: 9d31a61ba4fdc0b10800000000000000
+      internalID: 1949178250641675225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Babcui
+      name: PetnameSprites_Bean
       rect:
         serializedVersion: 2
-        x: 4
-        y: 95
-        width: 309
-        height: 78
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 361
+        y: 17
+        width: 227
+        height: 68
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c64c14b9b6d344d20800000000000000
-      internalID: 3261799562498655340
+      spriteID: e3b1fa38267fe5000800000000000000
+      internalID: 26730650298948414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gamma
+      name: PetnameSprites_Munch
       rect:
         serializedVersion: 2
-        x: 325
-        y: 98
-        width: 386
-        height: 67
-      alignment: 8
-      pivot: {x: 1, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c4eb2ef375ae82f0800000000000000
-      internalID: -968654952233966400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ga
-      rect:
-        serializedVersion: 2
-        x: 745
-        y: 97
-        width: 125
-        height: 67
-      alignment: 8
-      pivot: {x: 1, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23617a10b862ef2e0800000000000000
-      internalID: -2090190798583294414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grandma
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 5
-        width: 452
+        x: 611
+        y: 18
+        width: 329
         height: 76
-      alignment: 8
-      pivot: {x: 1, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f81200c04e14340800000000000000
-      internalID: 4846405414220304263
+      spriteID: 87c6769e5f2ad65f0800000000000000
+      internalID: -761773584889189256
       vertices: []
       indices: 
       edges: []

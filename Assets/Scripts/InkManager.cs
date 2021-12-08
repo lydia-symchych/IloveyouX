@@ -155,22 +155,6 @@ public class InkManager : MonoBehaviour
 	[SerializeField]
 	private Button buttonPrefab = null;
 
-	//// * * * SPAWN SPRITES * * *
-	//// Name
-	//public GameObject namePrefab;
-	//public Sprite[] nameSprites; 
-	//public Transform namePosition;
-
-	//// Snack
-	//public GameObject snackPrefab;
-	//public Sprite[] snackSprites;
-	//public Transform snackPosition;
-
-	//// Memory
-	//public GameObject memoryPrefab;
-	//public Sprite[] memorySprites;
-	//public Transform memoryPosition;
-
 
 	//public void ParseTags()
 	//{
@@ -183,23 +167,21 @@ public class InkManager : MonoBehaviour
 	//		switch (prefix.ToLower())
 	//		{
 	//			case "name":
-	//				namePrefab.GetComponent<SpriteRenderer>().sprite = nameSprites[int.Parse(param)];
-	//				Instantiate(namePrefab, playerChoices);
-	//				Vector2 namePosition = namePrefab.transform.position;
-	//				print("my name is");
-	//				print(namePrefab.GetComponent<SpriteRenderer>().sprite);
+	//				
+	//				do something!
+	//
 	//				break;
 
 	//			case "snack":
-	//				snackPrefab.GetComponent<SpriteRenderer>().sprite = snackSprites[int.Parse(param)];
-	//				Instantiate(snackPrefab, playerChoices);
-	//				Vector2 snackPosition = snackPrefab.transform.position;
+	//				
+	//				do something!
+	//
 	//				break;
 
 	//			case "memory":
-	//				memoryPrefab.GetComponent<SpriteRenderer>().sprite = memorySprites[int.Parse(param)];
-	//				Instantiate(memoryPrefab, playerChoices);
-	//				Vector2 memoryPosition = memoryPrefab.transform.position;
+	//				
+	//				do something!
+	//
 	//				break;
 	//		}
 	//	}

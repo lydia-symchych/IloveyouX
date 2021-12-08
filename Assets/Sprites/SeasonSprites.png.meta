@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: c1a82d30b05bc5d459e880ebed950efd
+guid: d8ca8a13fb16b384b8c4c33dde40ea76
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -968654952233966400
-    second: Gamma
+      213: -4358648939468265740
+    second: SeasonSprites_Spring
   - first:
-      213: -2090190798583294414
-    second: Ga
-  - first:
-      213: 4846405414220304263
-    second: Grandma
+      213: 282330744421687833
+    second: SeasonSprites_Summer
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +53,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -108,106 +105,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Nana
+      name: SeasonSprites_Autumn
       rect:
         serializedVersion: 2
-        x: 4
-        y: 6
-        width: 242
-        height: 66
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 11
+        y: 13
+        width: 161
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ececa4ac2eaf8c6a0800000000000000
-      internalID: -6428612616107929906
+      spriteID: 9b69749912f18a330800000000000000
+      internalID: 3722259321187702457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Babcui
+      name: SeasonSprites_Winter
       rect:
         serializedVersion: 2
-        x: 4
-        y: 95
-        width: 309
-        height: 78
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 195
+        y: 12
+        width: 145
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c64c14b9b6d344d20800000000000000
-      internalID: 3261799562498655340
+      spriteID: 76ad880f739ccffa0800000000000000
+      internalID: -5765512180845192601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gamma
+      name: SeasonSprites_Spring
       rect:
         serializedVersion: 2
-        x: 325
-        y: 98
-        width: 386
-        height: 67
-      alignment: 8
-      pivot: {x: 1, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 378
+        y: 12
+        width: 163
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4eb2ef375ae82f0800000000000000
-      internalID: -968654952233966400
+      spriteID: 4f66c56f1e7f283c0800000000000000
+      internalID: -4358648939468265740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ga
+      name: SeasonSprites_Summer
       rect:
         serializedVersion: 2
-        x: 745
-        y: 97
-        width: 125
-        height: 67
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 562
+        y: 13
+        width: 162
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23617a10b862ef2e0800000000000000
-      internalID: -2090190798583294414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grandma
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 5
-        width: 452
-        height: 76
-      alignment: 8
-      pivot: {x: 1, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78f81200c04e14340800000000000000
-      internalID: 4846405414220304263
+      spriteID: 9122d62f05a0be300800000000000000
+      internalID: 282330744421687833
       vertices: []
       indices: 
       edges: []
