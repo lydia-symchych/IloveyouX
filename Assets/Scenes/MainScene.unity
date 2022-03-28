@@ -836,6 +836,9 @@ MonoBehaviour:
   - {fileID: -5029494526960559022, guid: 88ca637d6321d0f459800b495023a9a1, type: 3}
   morningdrinkPosition: {fileID: 4576890691037029841, guid: 3a8d1764fc9f1b24ca77c237a5ff1970,
     type: 3}
+  morningdrinkSounds:
+  - {fileID: 8300000, guid: b12a8ec7c45dce84d98569f8e8e465c1, type: 3}
+  - {fileID: 8300000, guid: e569c621362f0ff40a0c13e023930ed1, type: 3}
   seasonPrefab: {fileID: 6828500660635888444, guid: a608425e25f076049ad445c67fc8b885,
     type: 3}
   seasonSprites:

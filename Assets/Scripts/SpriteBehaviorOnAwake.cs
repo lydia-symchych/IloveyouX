@@ -24,6 +24,11 @@ public class SpriteBehaviorOnAwake : MonoBehaviour
         rend.color = c;
 
         StartCoroutine("FadeIn");
+
+        //play sound effect
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+        print("SFX playing");
     }
 
 

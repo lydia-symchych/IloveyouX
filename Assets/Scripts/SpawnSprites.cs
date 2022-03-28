@@ -14,6 +14,7 @@ public class SpawnSprites : MonoBehaviour
     public GameObject morningdrinkPrefab;
     public Sprite[] morningdrinkSprites;
     public Transform morningdrinkPosition;
+    public AudioClip[] morningdrinkSounds;
 
     // Season
     public GameObject seasonPrefab;
@@ -80,6 +81,8 @@ public class SpawnSprites : MonoBehaviour
                     morningdrink.GetComponent<SpriteRenderer>().sprite = morningdrinkSprites[int.Parse(param)];
                     print("sprite set");
                     Vector2 morningdrinkPosition = morningdrink.transform.position;
+                    morningdrink.GetComponent<AudioSource>().clip = morningdrinkSounds[int.Parse(param)];
+                    print("SFX loaded");
                     break;
 
                 case "season":
